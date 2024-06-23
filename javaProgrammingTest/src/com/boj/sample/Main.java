@@ -1,4 +1,4 @@
-package com.company.sample;
+package com.boj.sample;
 
 import java.util.function.Function;
 import java.util.function.Supplier;
