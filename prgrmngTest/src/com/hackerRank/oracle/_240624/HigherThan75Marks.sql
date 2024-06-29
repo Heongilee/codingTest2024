@@ -1,0 +1,9 @@
+SELECT
+        NAME
+FROM    STUDENTS
+WHERE   1=1
+AND     MARKS > 75
+ORDER BY
+        SUBSTR(NAME, -3)
+      , ID
+;
