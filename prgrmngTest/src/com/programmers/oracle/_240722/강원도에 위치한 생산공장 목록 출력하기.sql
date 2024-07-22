@@ -1,0 +1,10 @@
+SELECT
+        FACTORY_ID
+      , FACTORY_NAME
+      , ADDRESS
+FROm    FOOD_FACTORY
+WHERE   1=1
+AND     ADDRESS like '강원도%'
+ORDER BY
+        FACTORY_ID
+;
